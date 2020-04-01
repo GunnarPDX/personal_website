@@ -37,6 +37,7 @@ html {
 .clear {
     background: rgba(0, 0, 0, 0) !important;
     backdrop-filter: none !important;
+    mix-blend-mode: unset !important;
 }
 
 .logo {
@@ -137,41 +138,6 @@ a {
     background-image: -webkit-linear-gradient(left , #f7f7f7 2%, #E6E6E6 50%, #f7f7f7 98%);
     background-image: -ms-linear-gradient(left , #f7f7f7 2%, #E6E6E6 50%, #f7f7f7 98%);
     background-image: -webkit-gradient( linear, left bottom, right bottom, color-stop(0.02, #f7f7f7), color-stop(0.5, gray), color-stop(0.98, #f7f7f7) );
-}
-
-
-.img {
-    border-radius: 3px;
-
-    /*
-    -webkit-transition:all .4s;
-    -moz-transition:all .4s;
-    -ms-transition:all .4s;
-    -o-transition:all .4s;
-    transition:all .4s;
-    */
-}
-.img:not(:hover) {
-    /*
-    -webkit-filter:grayscale(0%);
-    -moz-filter:grayscale(0%);
-    -ms-filter:grayscale(0%);
-    -o-filter:grayscale(0%);
-    filter:grayscale(0%);
-    */
-    /*
-    opacity: 0.5;
-
-    filter: sepia(60%);
-}
-.img:hover {
-    /*
-    -webkit-filter:grayscale(100%);
-    -moz-filter:grayscale(100%);
-    -ms-filter:grayscale(100%);
-    -o-filter:grayscale(100%);
-    filter:grayscale(100%);
-     */
 }
 
 .no-margin {
