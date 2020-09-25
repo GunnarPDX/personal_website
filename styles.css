@@ -12,6 +12,7 @@ nav {
     top: 0;
     left: 0;
     right: 0;
+    margin: 0 10px;
 
     height: 70px;
 }
@@ -21,16 +22,44 @@ h1 {
     line-height: 15px;
     color: var(--main-color);
     text-align: right;
+    font-weight: 500;
+}
+h2 {
+    font-size: 100%;
+    line-height: 20px;
+    color: var(--main-color);
+    text-align: center;
 }
 
 a {
-    line-height: 25px;
+    line-height: 20px;
     font-weight: 500;
     color: var(--main-color);
 }
 a:hover {
     color: #D7D7D7;
-    text-decoration: line-through;
+    text-decoration: underline;/*line-through;*/
+}
+
+button {
+    width: 160px;
+    margin:20px 20px 0 20px;
+    background: var(--main-color);
+    font-size: 100%;
+    font-weight: 700;
+    line-height: 20px;
+    color: #0E0E0E;
+    text-align: center;
+    padding: 7px 20px;
+    border: none;
+    cursor: pointer;
+}
+button:hover {
+    background: #0E0E0E;
+    padding: 5px 18px;
+    color: var(--main-color);
+    border: 2px solid var(--main-color);
+    cursor: pointer;
 }
 
 /* */
@@ -41,7 +70,7 @@ a:hover {
     margin: 70px auto;
 }
 
-/* */
+/* NAVIGATION */
 
 .logo {
     height: 50px;
@@ -61,19 +90,41 @@ a:hover {
     text-align: left !important;
 }
 
-.link-icon {
-    padding-left: 1px;
-    font-size: 110%;
+.pipe {
+    line-height: 20px;
+    font-weight: 500;
+    color: var(--main-color);
+    cursor: default;
+}
+.pipe:hover {
+    text-decoration: none !important;
+    cursor: default;
 }
 
 /* */
 
 .section-title {
-    padding: 0 5px;
-    border-right: 2px solid var(--main-color);
+    padding: 0 10px;
+    /* border-right: 2px solid var(--main-color); */
 }
 
 /* */
+
+.half-row-spacer {
+    height: 95px;
+    width: 100%;
+}
+
+.about {
+    margin: 0 auto;
+    width: 300px;
+}
+.corner-box-about {
+    height: 45px;
+}
+.about-text {
+    padding: 15px 0;
+}
 
 .row-spacer {
     height: 200px;
@@ -85,7 +136,7 @@ a:hover {
     border-bottom: 2px solid #2F2ED5;
 }
 
-/* */
+/* PRODUCT */
 
 .product {
     padding: 5px;
@@ -101,9 +152,24 @@ a:hover {
 }
 
 .product-desc-container {
-    background: #ffea57;
     margin: 5px;
-    height: 51%;
+    height: 53%;
+}
+
+.relleka-content-container {
+    width: 90%;
+    max-width: 200px;
+    margin: 0 auto;
+}
+
+.relleka-logo {
+    padding: 0 20px;
+    width: 100%;
+}
+
+.relleka-spacer {
+    width: 100%;
+    height: 20px;
 }
 
 .wide-col {
@@ -116,37 +182,135 @@ a:hover {
     width: calc(100% - 10px);
 }
 
-/* */
+/* CORNER BOX */
+
+.corner {
+    width: 10px;
+    height: 10px;
+}
+.corner-1 {
+    border-top: 2px solid var(--main-color);
+    border-left: 2px solid var(--main-color);
+}
+.corner-2 {
+    border-top: 2px solid var(--main-color);
+    border-right: 2px solid var(--main-color);
+}
+.corner-3 {
+    border-bottom: 2px solid var(--main-color);
+    border-left: 2px solid var(--main-color);
+}
+.corner-4 {
+    border-bottom: 2px solid var(--main-color);
+    border-right: 2px solid var(--main-color);
+}
+
+.cornered-container-content {
+    position: relative;
+    padding: 0 10px;
+}
+
+.corner-box-product {
+    height: calc(100% - 40px);
+}
+
+/* WORK */
 
 .work {
-
+    padding: 5px;
 }
 
 .work-row {
     height: 150px;
-    border: 1px solid red;
+    /*border: 1px solid red;*/
 }
 
-/* */
+.work-box-1 {
+    margin: 5px;
+    height: 140px;
+    width: 140px;
+    background: #5dff7a;
+}
+
+.work-box-2 {
+    margin: 5px;
+    height: 140px;
+    width: 140px;
+    background: #ffaf64;
+}
+
+.work-desc-container {
+    margin: 5px;
+}
+
+.work-corner-box {
+    height: 120px;
+}
+
+.work-info {
+    width: 95%;
+}
+
+.job-desc-spacer {
+    width: 100%;
+    height: 10px;
+}
+
+/* OPEN SOURCE */
 
 .open-source {
-
+    padding: 5px;
 }
 
 .os-col {
-    border: 1px solid red;
-    height: 250px;
+
 }
 
-/* */
+.os-img {
+    height: 300px;
+    margin: 5px;
+    background: white;
+}
+
+/* PROJECTS */
+
+.projects {
+    padding: 5px;
+}
 
 .project-col {
-    border: 1px solid red;
-    height: 400px;
+    margin: 0;
+    padding: 0;
 }
 
-/* */
+.project-img {
+    margin: 5px 5px 0 5px;
+    width:  calc(100% - 10px);
+}
+
+/* MSC */
 
 .no-margin {
     margin: 0 !important;
+}
+
+.horizontal-center {
+    text-align: center;
+}
+
+.center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.left {
+    text-align: left !important;
+}
+
+.bolder {
+    font-weight: 600;
 }

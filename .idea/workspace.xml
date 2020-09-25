@@ -2,12 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d85653e7-b54d-42c3-9775-e0b065541539" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/name-logo.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/relleka-landing.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/relleka-ui.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/covid-dash.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/csm.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/relleka-hero.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/relleka-logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sella-logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/threshold-logo.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/userfluent.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/modals.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -31,6 +34,9 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
     </key>
@@ -70,7 +76,7 @@
       <workItem from="1587759490233" duration="93000" />
       <workItem from="1592688969641" duration="1413000" />
       <workItem from="1599172594543" duration="10000" />
-      <workItem from="1600908585801" duration="9958000" />
+      <workItem from="1600908585801" duration="22136000" />
     </task>
     <servers />
   </component>
@@ -78,9 +84,9 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="505" y="236" width="670" height="676" key="search.everywhere.popup" timestamp="1586066025334">
-      <screen x="0" y="23" width="1680" height="969" />
+    <state x="389" y="260" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1601012335130">
+      <screen x="0" y="23" width="1680" height="972" />
     </state>
-    <state x="505" y="236" width="670" height="676" key="search.everywhere.popup/0.23.1680.969@0.23.1680.969" timestamp="1586066025334" />
+    <state x="389" y="260" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1680.972@0.23.1680.972" timestamp="1601012335130" />
   </component>
 </project>
