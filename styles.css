@@ -1,6 +1,9 @@
 
 :root {
     --main-color: #D7D7D7;
+
+    --prime: #FF6E48;
+    --second: #0C1016;
 }
 
 html {
@@ -62,6 +65,50 @@ button:hover {
     cursor: pointer;
 }
 
+@media only screen and (max-width: 768px) {
+    .link-container {
+        padding: 0 !important;
+    }
+    .nav-link-container {
+        margin: 0 !important;
+    }
+    .narrow-col {
+        width: 100% !important;
+    }
+    .wide-col {
+        width: 100% !important;
+    }
+    .relleka-landing-img {
+        display: none;
+    }
+    .product-desc-container {
+        height: 300px !important;
+    }
+    .mobile-corner-1 {
+        border-top: 2px solid var(--main-color);
+        border-left: 2px solid var(--main-color);
+    }
+    .mobile-corner-2 {
+        border-top: 2px solid var(--main-color);
+        border-right: 2px solid var(--main-color);
+    }
+    .mobile-corner-3 {
+        border-bottom: 2px solid var(--main-color);
+        border-left: 2px solid var(--main-color);
+    }
+    .mobile-corner-4 {
+        border-bottom: 2px solid var(--main-color);
+        border-right: 2px solid var(--main-color);
+    }
+    .work-box-1, .work-box-2 {
+        width: calc(100% - 10px) !important;
+        height: auto;
+    }
+    .work-row {
+        height: 310px !important;
+    }
+}
+
 /* */
 
 .container {
@@ -105,6 +152,8 @@ button:hover {
 
 .section-title {
     padding: 0 10px;
+    font-size: 120%;
+    font-weight: 700;
     /* border-right: 2px solid var(--main-color); */
 }
 
@@ -153,7 +202,7 @@ button:hover {
 
 .product-desc-container {
     margin: 5px;
-    height: 53%;
+    height: 52%;
 }
 
 .relleka-content-container {
@@ -205,6 +254,11 @@ button:hover {
     border-right: 2px solid var(--main-color);
 }
 
+.mobile-corner-1 {}
+.mobile-corner-2 {}
+.mobile-corner-3 {}
+.mobile-corner-4 {}
+
 .cornered-container-content {
     position: relative;
     padding: 0 10px;
@@ -229,14 +283,14 @@ button:hover {
     margin: 5px;
     height: 140px;
     width: 140px;
-    background: #5dff7a;
+    background: #04FF91;
 }
 
 .work-box-2 {
     margin: 5px;
     height: 140px;
     width: 140px;
-    background: #ffaf64;
+    background: #FFAF64;
 }
 
 .work-desc-container {
@@ -266,10 +320,24 @@ button:hover {
 
 }
 
-.os-img {
+.os-img-1 {
     height: 300px;
     margin: 5px;
-    background: white;
+    background: #9dffd5;
+}
+.os-img-2 {
+    height: 300px;
+    margin: 5px;
+    background: #008bff;
+}
+.os-img-3 {
+    height: 300px;
+    margin: 5px;
+    background: #2F2ED5;
+}
+
+.os-desc-container {
+    padding: 5px;
 }
 
 /* PROJECTS */
@@ -313,4 +381,82 @@ button:hover {
 
 .bolder {
     font-weight: 600;
+}
+
+
+.img-block-wrapper {
+    position: relative;
+}
+
+.overlay {
+    position: absolute;
+    margin: 5px;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: calc(100% - 11px);
+    width: calc(100% - 10px);
+    transition-delay: 250ms;
+    transition: opacity 0.65s ease-in-out;
+    opacity: 0;
+
+    background-color: var(--main-color);
+}
+
+.img-block-wrapper:hover .overlay {
+    opacity: 1;
+
+}
+
+.covid-red {
+    background: #CF1B49 !important;
+}
+.covid-button {
+    background: #0E0E0E;
+    color: #CF1B49;
+}
+.covid-button:hover {
+    background: #CF1B49;
+    color: #0E0E0E;
+    border-color: #0E0E0E;
+}
+
+.csm-blue {
+    background: #369EFF !important;
+}
+.csm-button {
+    background: #0E0E0E;
+    color: #369EFF;
+}
+.csm-button:hover {
+    background: #369EFF;
+    color: #0E0E0E;
+    border-color: #0E0E0E;
+}
+
+.receipt-teal {
+    background: #101F55 !important;
+}
+.receipt-button {
+    background: var(--main-color);
+    color: #101F55;
+}
+.receipt-button:hover {
+    background: #101F55;
+    color: var(--main-color);
+    border-color: var(--main-color);
+}
+
+.uf-seafoam {
+    background: #F6FCF2 !important;
+}
+.uf-button {
+    background: #0E0E0E;
+    color: #F6FCF2;
+}
+.uf-button:hover {
+    background: #F6FCF2;
+    color: #0E0E0E;
+    border-color: #0E0E0E;
 }
