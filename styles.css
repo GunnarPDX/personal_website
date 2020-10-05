@@ -17,7 +17,7 @@ nav {
     right: 0;
     margin: 0 10px;
 
-    height: 70px;
+    height: 120px;
 }
 
 h1 {
@@ -63,6 +63,14 @@ button:hover {
     color: var(--main-color);
     border: 2px solid var(--main-color);
     cursor: pointer;
+}
+.small-btn {
+    width: 100px !important;
+    font-size: 75% !important;
+    padding: 5px 15px !important;
+}
+.small-btn:hover {
+    padding: 3px 13px !important;
 }
 
 @media only screen and (max-width: 768px) {
@@ -122,9 +130,16 @@ button:hover {
 .logo {
     height: 50px;
     width: auto;
-    margin: 10px 0;
+    margin: 0 0 70px 0;
     /* padding: 0 5px;
     border-left: 2px solid var(--main-color); */
+}
+
+.nav-links-header {
+    margin: 0 0 0 20px;
+    font-weight: 600;
+    color: var(--main-color);
+    cursor: default;
 }
 
 .nav-link-container {
@@ -383,80 +398,7 @@ button:hover {
     font-weight: 600;
 }
 
-
 .img-block-wrapper {
     position: relative;
 }
 
-.overlay {
-    position: absolute;
-    margin: 5px;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    height: calc(100% - 11px);
-    width: calc(100% - 10px);
-    transition-delay: 250ms;
-    transition: opacity 0.65s ease-in-out;
-    opacity: 0;
-
-    background-color: var(--main-color);
-}
-
-.img-block-wrapper:hover .overlay {
-    opacity: 1;
-
-}
-
-.covid-red {
-    background: #CF1B49 !important;
-}
-.covid-button {
-    background: #0E0E0E;
-    color: #CF1B49;
-}
-.covid-button:hover {
-    background: #CF1B49;
-    color: #0E0E0E;
-    border-color: #0E0E0E;
-}
-
-.csm-blue {
-    background: #369EFF !important;
-}
-.csm-button {
-    background: #0E0E0E;
-    color: #369EFF;
-}
-.csm-button:hover {
-    background: #369EFF;
-    color: #0E0E0E;
-    border-color: #0E0E0E;
-}
-
-.receipt-teal {
-    background: #101F55 !important;
-}
-.receipt-button {
-    background: var(--main-color);
-    color: #101F55;
-}
-.receipt-button:hover {
-    background: #101F55;
-    color: var(--main-color);
-    border-color: var(--main-color);
-}
-
-.uf-seafoam {
-    background: #F6FCF2 !important;
-}
-.uf-button {
-    background: #0E0E0E;
-    color: #F6FCF2;
-}
-.uf-button:hover {
-    background: #F6FCF2;
-    color: #0E0E0E;
-    border-color: #0E0E0E;
-}
