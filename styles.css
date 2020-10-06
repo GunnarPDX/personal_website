@@ -77,10 +77,7 @@ button:hover {
     .link-container {
         padding: 0 !important;
     }
-    .nav-links-header {
-        margin: 0 !important;
-    }
-    .nav-link-container {
+    .nav-links-header, .logo, .nav-link-container {
         margin: 0 !important;
     }
     .narrow-col {
