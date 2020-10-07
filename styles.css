@@ -338,20 +338,10 @@ button:hover {
 
 }
 
-.os-img-1 {
-    height: 300px;
+.os-img {
+    width: calc(100% - 10px);
+    height: auto;
     margin: 5px;
-    background: #9dffd5;
-}
-.os-img-2 {
-    height: 300px;
-    margin: 5px;
-    background: #008bff;
-}
-.os-img-3 {
-    height: 300px;
-    margin: 5px;
-    background: #2F2ED5;
 }
 
 .os-desc-container {
