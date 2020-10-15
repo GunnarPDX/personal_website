@@ -436,3 +436,7 @@ button:hover {
     opacity: 1;
 
 }
+
+.footer-icon {
+    width: 50px;
+}

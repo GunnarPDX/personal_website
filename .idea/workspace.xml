@@ -2,14 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d85653e7-b54d-42c3-9775-e0b065541539" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/ex-robinhood-os.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/footer.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ElmWorkspace">
+    <elmProjects />
+    <settings elmCompilerPath="" elmFormatPath="" elmTestPath="" isElmFormatOnSaveEnabled="false" />
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -25,12 +30,14 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="org.elm.workspace.PROJECT_DISCOVERY" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
+    <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
+    <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
@@ -74,7 +81,9 @@
       <workItem from="1601190410365" duration="308000" />
       <workItem from="1601869862046" duration="2576000" />
       <workItem from="1602012788392" duration="591000" />
-      <workItem from="1602044316785" duration="3415000" />
+      <workItem from="1602044316785" duration="3920000" />
+      <workItem from="1602364524295" duration="102000" />
+      <workItem from="1602734024766" duration="779000" />
     </task>
     <servers />
   </component>
@@ -86,5 +95,9 @@
       <screen x="0" y="23" width="1680" height="972" />
     </state>
     <state x="389" y="260" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.23.1680.972@0.23.1680.972" timestamp="1601076195239" />
+    <state x="113" y="145" key="SettingsEditor" timestamp="1602364514898">
+      <screen x="0" y="23" width="1680" height="972" />
+    </state>
+    <state x="113" y="145" key="SettingsEditor/0.23.1680.972@0.23.1680.972" timestamp="1602364514898" />
   </component>
 </project>
