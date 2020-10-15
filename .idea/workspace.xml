@@ -6,6 +6,7 @@
       <change afterPath="$PROJECT_DIR$/footer.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles.css" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -83,7 +84,7 @@
       <workItem from="1602012788392" duration="591000" />
       <workItem from="1602044316785" duration="3920000" />
       <workItem from="1602364524295" duration="102000" />
-      <workItem from="1602734024766" duration="779000" />
+      <workItem from="1602734024766" duration="919000" />
     </task>
     <servers />
   </component>
