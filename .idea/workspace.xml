@@ -2,13 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d85653e7-b54d-42c3-9775-e0b065541539" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/elixir-finance-os.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/elixir-trade-tools-os.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/workbench-os.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/elixir-trading-tools-os.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/workbench-os.png" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -88,6 +83,7 @@
       <workItem from="1602364524295" duration="102000" />
       <workItem from="1602734024766" duration="919000" />
       <workItem from="1602741828243" duration="155000" />
+      <workItem from="1603151260005" duration="201000" />
     </task>
     <servers />
   </component>
