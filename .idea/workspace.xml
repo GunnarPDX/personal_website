@@ -3,6 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="d85653e7-b54d-42c3-9775-e0b065541539" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ex-robinhood-os.svg" beforeDir="false" afterPath="$PROJECT_DIR$/ex-robinhood-os.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -32,10 +33,10 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
+    <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
     </key>
-    <key name="CopyFile.RECENT_KEYS">
+    <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
@@ -84,6 +85,8 @@
       <workItem from="1602734024766" duration="919000" />
       <workItem from="1602741828243" duration="155000" />
       <workItem from="1603151260005" duration="201000" />
+      <workItem from="1603152567932" duration="199000" />
+      <workItem from="1603171844783" duration="219000" />
     </task>
     <servers />
   </component>
