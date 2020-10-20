@@ -3,6 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="d85653e7-b54d-42c3-9775-e0b065541539" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/elixir-finance-os.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/elixir-finance-os.svg" beforeDir="false" afterPath="$PROJECT_DIR$/elixir-finance-os.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ex-robinhood-os.svg" beforeDir="false" afterPath="$PROJECT_DIR$/ex-robinhood-os.svg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
@@ -86,7 +88,7 @@
       <workItem from="1602741828243" duration="155000" />
       <workItem from="1603151260005" duration="201000" />
       <workItem from="1603152567932" duration="199000" />
-      <workItem from="1603171844783" duration="219000" />
+      <workItem from="1603171844783" duration="457000" />
     </task>
     <servers />
   </component>
