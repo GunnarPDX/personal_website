@@ -432,6 +432,10 @@ button:hover {
     background: linear-gradient(180deg, rgba(0,0,0,0) 0%, rgba(18, 18, 18, 0.79) 100%);
 }
 
+.tall-overlay {
+    height: 80px !important;
+}
+
 .img-block-wrapper:hover .overlay {
     opacity: 1;
 
