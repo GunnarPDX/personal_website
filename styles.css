@@ -121,7 +121,7 @@ button:hover {
         border-bottom: 2px solid var(--main-color);
         border-right: 2px solid var(--main-color);
     }
-    .work-box-1, .work-box-2 {
+    .work-box-1, .work-box-2, .work-box-3 {
         width: calc(100% - 10px) !important;
         height: auto;
     }
@@ -305,6 +305,13 @@ button:hover {
 .work-row {
     height: 150px;
     /*border: 1px solid red;*/
+}
+
+.work-box-3 {
+    margin: 5px;
+    height: 140px;
+    width: 140px;
+    background: #F5F5F5;
 }
 
 .work-box-1 {
