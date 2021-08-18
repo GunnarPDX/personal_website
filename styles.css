@@ -35,7 +35,6 @@ h2 {
     font-size: 100%;
     line-height: 20px;
     color: var(--main-color);
-    text-align: center;
 }
 
 a {
@@ -332,6 +331,9 @@ button:hover {
     margin: 5px;
 }
 
+.work-desc-text {
+  text-align: center;
+}
 .work-corner-box {
     height: 120px;
 }
@@ -348,7 +350,7 @@ button:hover {
 /* OPEN SOURCE */
 
 .open-source {
-    padding: 5px;
+    padding: 10px;
 }
 
 .os-col {
