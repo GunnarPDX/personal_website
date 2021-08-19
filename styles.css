@@ -15,6 +15,10 @@ html {
     background: var(--bg-main);
 }
 
+.text {
+  font-family: "Courier", monospace;
+}
+
 nav {
     top: 0;
     left: 0;
@@ -44,7 +48,7 @@ a {
 }
 a:hover {
     color: #D7D7D7;
-    text-decoration: underline;/*line-through;*/
+    text-decoration: line-through;
 }
 
 button {
