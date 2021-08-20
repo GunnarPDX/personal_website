@@ -15,8 +15,19 @@ html {
     background: var(--bg-main);
 }
 
+.bolder {
+  font-weight: 500;
+}
+
+.title {
+  font-size: 110%;
+  font-weight: 700;
+  color: var(--main-color);
+}
+
 .text {
-  font-family: "Courier", monospace;
+  /*font-family: "Courier", monospace;*/
+  font-family: 'PT Mono', monospace;
 }
 
 nav {
@@ -36,7 +47,7 @@ h1 {
     font-weight: 500;
 }
 h2 {
-    font-size: 100%;
+    font-size: 95%;
     line-height: 20px;
     color: var(--main-color);
 }
@@ -51,41 +62,6 @@ a:hover {
     text-decoration: line-through;
 }
 
-button {
-    width: 160px;
-    margin:20px 20px 0 20px;
-    background: var(--main-color);
-    font-size: 100%;
-    font-weight: 700;
-    line-height: 20px;
-    color: var(--bg-main);
-    text-align: center;
-    padding: 7px 20px;
-    border: none;
-    cursor: pointer;
-}
-button:hover {
-    background: var(--bg-main);
-    padding: 5px 18px;
-    color: var(--main-color);
-    border: 2px solid var(--main-color);
-    cursor: pointer;
-}
-.small-btn {
-    width: 100px !important;
-    font-size: 75% !important;
-    padding: 5px 15px !important;
-
-    background: var(--bg-main);
-    color: var(--main-color);
-}
-.small-btn:hover {
-    padding: 3px 13px !important;
-    background: none;
-    border: 2px solid var(--bg-main);
-    color: var(--bg-main);
-}
-
 @media only screen and (max-width: 768px) {
     .container {
         margin: 20px auto !important;
@@ -96,41 +72,6 @@ button:hover {
     .nav-links-header, .logo, .nav-link-container {
         margin: 0 !important;
     }
-    .narrow-col {
-        width: 100% !important;
-    }
-    .wide-col {
-        width: 100% !important;
-    }
-    .relleka-landing-img {
-        display: none;
-    }
-    .product-desc-container {
-        height: 300px !important;
-    }
-    .mobile-corner-1 {
-        border-top: 2px solid var(--main-color);
-        border-left: 2px solid var(--main-color);
-    }
-    .mobile-corner-2 {
-        border-top: 2px solid var(--main-color);
-        border-right: 2px solid var(--main-color);
-    }
-    .mobile-corner-3 {
-        border-bottom: 2px solid var(--main-color);
-        border-left: 2px solid var(--main-color);
-    }
-    .mobile-corner-4 {
-        border-bottom: 2px solid var(--main-color);
-        border-right: 2px solid var(--main-color);
-    }
-    .work-box-1, .work-box-2, .work-box-3 {
-        width: calc(100% - 10px) !important;
-        height: auto;
-    }
-    .work-row {
-        height: 310px !important;
-    }
 }
 
 /* */
@@ -139,6 +80,11 @@ button:hover {
     width: 95%;
     max-width: 1100px;
     margin: 70px auto;
+}
+
+.text-section {
+  border-left: 1px solid var(--main-color);
+  padding-left: 10px;
 }
 
 /* NAVIGATION */
@@ -168,24 +114,10 @@ button:hover {
     text-align: left !important;
 }
 
-.pipe {
-    line-height: 20px;
-    font-weight: 500;
-    color: var(--main-color);
-    cursor: default;
-}
-.pipe:hover {
-    text-decoration: none !important;
-    cursor: default;
-}
-
-/* */
-
 .section-title {
     padding: 0 10px;
     font-size: 120%;
     font-weight: 700;
-    /* border-right: 2px solid var(--main-color); */
 }
 
 /* */
@@ -211,93 +143,9 @@ button:hover {
     width: 100%;
 }
 
-.line {
-    padding-top: 17px;
-    border-bottom: 2px solid #2F2ED5;
-}
 
-/* PRODUCT */
 
-.product {
-    padding: 5px;
-}
 
-.narrow-col {
-    width: 38%;
-}
-
-.relleka-landing-img {
-    margin: 5px 5px 0 5px;
-    width: calc(100% - 10px);
-}
-
-.product-desc-container {
-    margin: 5px;
-    height: 52%;
-}
-
-.relleka-content-container {
-    width: 90%;
-    max-width: 200px;
-    margin: 0 auto;
-}
-
-.relleka-logo {
-    padding: 0 20px;
-    width: 100%;
-}
-
-.relleka-spacer {
-    width: 100%;
-    height: 20px;
-}
-
-.wide-col {
-    width: 62%;
-
-}
-
-.relleka-ui-img {
-    margin: 5px;
-    width: calc(100% - 10px);
-}
-
-/* CORNER BOX */
-
-.corner {
-    width: 10px;
-    height: 10px;
-}
-.corner-1 {
-    border-top: 2px solid var(--main-color);
-    border-left: 2px solid var(--main-color);
-}
-.corner-2 {
-    border-top: 2px solid var(--main-color);
-    border-right: 2px solid var(--main-color);
-}
-.corner-3 {
-    border-bottom: 2px solid var(--main-color);
-    border-left: 2px solid var(--main-color);
-}
-.corner-4 {
-    border-bottom: 2px solid var(--main-color);
-    border-right: 2px solid var(--main-color);
-}
-
-.mobile-corner-1 {}
-.mobile-corner-2 {}
-.mobile-corner-3 {}
-.mobile-corner-4 {}
-
-.cornered-container-content {
-    position: relative;
-    padding: 0 10px;
-}
-
-.corner-box-product {
-    height: calc(100% - 40px);
-}
 
 /* WORK */
 
@@ -357,48 +205,6 @@ button:hover {
     padding: 10px;
 }
 
-.os-col {
-
-}
-
-.os-img {
-    width: calc(100% - 10px);
-    height: auto;
-    margin: 5px;
-}
-
-.os-img-container {
-    position: relative;
-}
-.os-img-container .overlay {
-    bottom: 5px;
-}
-.os-img-container:hover .overlay {
-    opacity: 1;
-}
-
-.os-desc-container {
-    padding: 5px;
-}
-
-/* PROJECTS */
-
-.projects {
-    padding: 5px;
-}
-
-.project-col {
-    margin: 0;
-    padding: 0;
-}
-
-.project-img {
-    margin: 5px 5px 0 5px;
-    width:  calc(100% - 10px);
-}
-
-/* MSC */
-
 .no-margin {
     margin: 0 !important;
 }
@@ -407,55 +213,8 @@ button:hover {
     text-align: center;
 }
 
-.center {
-    margin: 0;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    -ms-transform: translate(-50%, -50%);
-    transform: translate(-50%, -50%);
-}
-
 .left {
     text-align: left !important;
-}
-
-.bolder {
-    font-weight: 600;
-}
-
-.img-block-wrapper {
-    position: relative;
-}
-
-.overlay {
-    display: none;
-
-    position: absolute;
-    margin: 5px;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    height: 65px;
-    width: calc(100% - 10px);
-    transition-delay: 250ms;
-    transition: opacity 0.65s linear;
-    opacity: 0;
-
-    /*background-color: var(--main-color);
-    background-image: linear-gradient(to bottom, rgba(255,0,0,0), rgba(0, 0, 0, 0.84));*/
-
-    background: rgb(24, 24, 24);
-    background: linear-gradient(180deg, rgba(0,0,0,0) 0%, rgba(18, 18, 18, 0.79) 100%);
-}
-
-.tall-overlay {
-    height: 80px !important;
-}
-
-.img-block-wrapper:hover .overlay {
-    opacity: 1;
-
 }
 
 .footer-icon {
