@@ -2,35 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d85653e7-b54d-42c3-9775-e0b065541539" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/android-chrome-192x192.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/android-chrome-256x256.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/apple-touch-icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/browserconfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/favicon-16x16.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/favicon-32x32.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mstile-150x150.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/safari-pinned-tab.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/site.webmanifest" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/covid-dash.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/csm.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elixir-finance-os.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/elixir-trade-tools-os.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex-robinhood-os.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/favicon.ico" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/receipt-transcriber.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/relleka-hero.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/relleka-landing.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/relleka-logo.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/relleka-ui.jpg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/relleka-ui.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/sella-logo.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/summa-linguae-logo.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/threshold-logo.svg" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/userfluent.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/workbench-os.svg" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -59,10 +32,10 @@
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
+    <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
+    <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
     </key>
   </component>
@@ -119,7 +92,7 @@
       <workItem from="1605592084138" duration="64000" />
       <workItem from="1612640541996" duration="1673000" />
       <workItem from="1612726686474" duration="118000" />
-      <workItem from="1629265309855" duration="8580000" />
+      <workItem from="1629265309855" duration="9745000" />
     </task>
     <servers />
   </component>
